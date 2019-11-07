@@ -14,7 +14,7 @@ public class Education {
     }
 
     public String displayText(){
-        return degree + " in " + major + "\n" + university + ", " + graduationYear + "\n\n";
+        return "\n" + degree + " in " + major + "\n" + university + ", " + graduationYear + "\n";
     }
 
 

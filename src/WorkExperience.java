@@ -19,11 +19,10 @@ public class WorkExperience {
 
     public String displayText(){
         String str = "";
-        str += title + "\n" + company + ", " + startDate + " - " + endDate + "\n";
+        str += "\n" + title + "\n" + company + ", " + startDate + " - " + endDate + "\n";
         for (String detail : details) {
             str += "- " + detail + "\n";
         }
-        str += "\n";
         return str;
     }
 

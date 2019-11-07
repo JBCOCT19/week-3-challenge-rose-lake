@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Resume {
 
@@ -23,15 +24,16 @@ public class Resume {
 
     public String displayText(){
         String str = "======================================================\n";
-        str += name + "\n" + email + "\n\n";
-        str += "\n*Education*\n";
+        str += name + "\n" + email + "\n";
+        str += "\n\n* EDUCATION *\n";
         for (Education education : educationList) {
             str += education.displayText();
         }
-        str += "\n*Work Experience*\n";
+        str += "\n\n* WORK EXPERIENCE *\n";
         for (WorkExperience work : workList) {
             str += work.displayText();
         }
+        str += "\n\n* SKILLS *\n";
         for (Skill skill : skillList) {
             str += skill.displayText();
         }
