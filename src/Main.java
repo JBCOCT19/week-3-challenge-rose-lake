@@ -9,6 +9,7 @@
  * Project Description:
  * Part 1: Robo Resume: https://canvas.instructure.com/courses/1743334/assignments/12845640?module_item_id=26321393
  *
+ * This code is all of the complete and working PART ONE ONLY
  */
 import java.util.ArrayList;
 import java.util.Scanner;

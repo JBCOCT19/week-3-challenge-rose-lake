@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c29184d5-94a2-4670-bdc7-231fa1daa268" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Education.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkExperience.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +52,7 @@
       <updated>1573135584401</updated>
       <workItem from="1573135587220" duration="593000" />
       <workItem from="1573136472776" duration="10477000" />
+      <workItem from="1573154310844" duration="35000" />
     </task>
     <servers />
   </component>
@@ -71,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
