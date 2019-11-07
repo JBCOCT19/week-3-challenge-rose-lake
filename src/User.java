@@ -2,29 +2,26 @@ import java.util.ArrayList;
 
 public class User {
 
-    int id;                         // up to 2+ billion possible, should be plenty!
-    String name;
-    ArrayList<Resume> resumes;
+    private String name;
+    private ArrayList<Resume> resumes;
 
     public User() {}
 
-    public User(int id, String name, ArrayList<Resume> resumes) {
-        this.id = id;
+    public User(String name, ArrayList<Resume> resumes) {
         this.name = name;
         this.resumes = resumes;
+    }
+
+    //**************************************************************************
+    // this method adds a new Resume to this User's ArrayList<Resume> resumes
+    //**************************************************************************
+    public void addResume(Resume newResume) {
+        resumes.add(newResume);
     }
 
     //*************************
     // default getters/setters
     //*************************
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
     }
